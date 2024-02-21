@@ -8,14 +8,20 @@
 
 * It is a syntax for formatting plain text files.
 * It helps us convert the file into lots of different formats like HTML, PDF, Word Documents, or convert to a dashboard or slide presentation.
-* 
-* 
-
 
 # R Notebook 
 
 Lets us run the code and show the graphs and charts that visualize the code.
 
+# Lets get strated with R Markdown
+
+* Step 1: Open - File
+* Step 2: Select - RMarkdown
+* Step 3: Name the file and click "OK"
+* Step 4: Click on file and "Save"
+
+
+ 
 # Additional resources
 
 * https://colab.research.google.com/notebooks/intro.ipynb
