@@ -1,3 +1,12 @@
+# List of items covered here:
+
+* What R Markdown is
+* How to use R Markdown in RStudio to create .Rmd files
+* Structure of these files and how to use them to make reports
+* what code chunks are and how to include them in the documentation
+* How to take all the analysis done and transform it form an .Rmd file into a report
+
+
 # Documentation-with-R-Markdown
 
 * A file format for making dynamic documents with R.
@@ -110,7 +119,48 @@ To embedd the link to avoid the clutter when its too long:
 
 Embedd the image:
 * ![Plot this way](http://pikaby.image.com).
- 
+
+# Code Chunk
+
+Code added in an .Rmd file.
+
+# Delimeter
+
+A character that indicates the beginning or end of a data item. i.e: ```{r} and ```.
+
+Code chunk keyboard shortcuts.
+
+* Macbook: Command+option+I
+
+* PC/Chromebook: ctrl+alt+I
+* RStudio: Code + Insert_chunk
+
+## Example of an .Rmd file:
+
+---
+title: "ggplot_hook"
+author: "Dhwani"
+date: "2024-02-23"
+output: html_document
+---
+
+## Setting up my environment
+
+Notes setting up my R environment by loading the 'tidyverse' and 'plamer penguins' packages.
+
+```{r packages}
+
+library(tidyverse)
+install.packages("palmerpenguins")
+library(palmerpenguins)
+```
+
+# Exporting Documents:
+
+Any .Rmd file once finished, can be converted into .html, .pdf or word format. Just click on the down arrow next to the 'knit button'
+
+
+
 # Additional resources
 
 * https://colab.research.google.com/notebooks/intro.ipynb
