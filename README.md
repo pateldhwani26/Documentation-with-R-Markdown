@@ -89,9 +89,27 @@ When you render your file, you can preview how it will look in the format you se
 Screenshot of a formatted R Markdown html file
 
 Rendering a file also automatically runs the code chunks to show the output. In this example, it shows that tidyverse was loaded using the library() function.
-Screenshot of rendered R Markdown .html file that shows tidyverse was loaded
-Reflection
 
+# YAML
+
+A language for datathat translate it so it's readable. It originally stood up for: Yte Another Markup Language.
+
+* In RMD file, first section is of metadata: "Title, Author, Date, Output" between "---" and endign with same "---"
+* The test ion the RMD file is inserted between "---{r}" and "---"
+* A hashtag(#) will create a header section, the more the hashtag, the smaller then header.
+* An astreak(*) will italicise the word.
+* The double astreaks(**) will bold the word.
+* To insert a url "<https://......>"
+
+To add bullets:
+
+* Add an astreak(*).
+
+To embedd the link to avoid the clutter when its too long:
+* Click here to visit the [link](http://rmarkdown.rstudio.com).
+
+Embedd the image:
+* ![Plot this way](http://pikaby.image.com).
  
 # Additional resources
 
