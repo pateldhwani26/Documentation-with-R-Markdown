@@ -22,7 +22,7 @@
 
 Lets us run the code and show the graphs and charts that visualize the code.
 
-# Lets get strated with R Markdown
+# Lets get started with R Markdown
 
 * Step 1: Open - File
 * Step 2: Select - RMarkdown
